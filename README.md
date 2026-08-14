@@ -25,8 +25,8 @@ Figma · Design Tokens · Ant Design / shadcn / MUI · Cursor · Claude Code
 ### GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=burakovski&show_icons=true&theme=transparent&hide_border=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=burakovski&layout=compact&theme=transparent&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.shion.dev/api?username=burakovski&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=burakovski&layout=compact&theme=transparent&hide_border=true" />
 </div>
 
 ---
