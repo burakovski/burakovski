@@ -22,6 +22,13 @@ Figma · Design Tokens · Ant Design / shadcn / MUI · Cursor · Claude Code
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/burakovski/burakovski/output/github-snake-dark.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/burakovski/burakovski/output/github-snake.svg" />
+</picture>
+
+---
+
 ### GitHub Stats
 
 <div align="center">
