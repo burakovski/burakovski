@@ -2,7 +2,9 @@
 
 # Hi, I'm Siarhei Burakouski
 
-**Senior Product Designer** · CRM / FinTech / SaaS · 0→1 → production
+**Senior Product Designer & Design Engineer** · CRM / FinTech / SaaS · 0→1 → production
+
+Design in Figma, build with code — vibe-coding my own products end-to-end.
 
 [Portfolio](https://siarheiburakouski.eskviz.com/hr/en) · [LinkedIn](https://www.linkedin.com/in/siarheiburakouski/?locale=en) · [Telegram](https://t.me/siarheiburakouski)
 
@@ -19,6 +21,8 @@
 </p>
 
 Figma · Design Tokens · Ant Design / shadcn / MUI · Cursor · Claude Code
+
+**Design → Code:** ship under the hood, end-to-end — websites, e-commerce, chatbots, Telegram mini-apps, OpenAI/CRM integrations. From Figma design tokens straight to shipped, production-ready product, no handoff gap.
 
 ---
 
@@ -44,5 +48,6 @@ Figma · Design Tokens · Ant Design / shadcn / MUI · Cursor · Claude Code
 - **FinTech** — брокерский терминал FTR.Dealing, payments
 - **AI products** — OnticoGPT (RAG, conversational UI)
 - **Design systems** — tokens, Figma Variables, Storybook
+- **Vibe-coded** — this portfolio itself: built solo in Cursor, from design to deploy
 
 [Cases →](https://siarheiburakouski.eskviz.com/hr/en)
