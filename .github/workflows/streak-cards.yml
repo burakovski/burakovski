@@ -1,0 +1,33 @@
+name: generate stats cards
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-streak-cards.py"
+      - "scripts/generate-languages-cards.py"
+      - ".github/workflows/streak-cards.yml"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/generate-streak-cards.py
+          python3 scripts/generate-languages-cards.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/streak-cards.svg .github/assets/languages-cards.svg
+          git diff --staged --quiet || git commit -m "chore: refresh stats cards"
+          git push
