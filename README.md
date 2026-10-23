@@ -76,9 +76,21 @@ I design and ship products end-to-end: design systems, AI-assisted workflows, an
 
 ---
 
-### Мои проекты
+### End-to-End Products
 
 <table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src=".github/assets/socialsensor.jpg" width="100%" alt="SocialSensor"/>
+      <h3>SocialSensor</h3>
+      <p><strong>Instagram content strategy.</strong> Enter a public username → get a week of post ideas: formats, topics, posting windows, and CTAs from the account’s real engagement — not generic advice.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://sheptun.vercel.app"><img src=".github/assets/sheptun.jpg" width="100%" alt="Sheptun"/></a>
+      <h3><a href="https://sheptun.vercel.app">Sheptun</a></h3>
+      <p><strong>Private in-browser speech-to-text.</strong> Whisper (+ optional local LLM) runs on-device — audio never leaves. No signup, no backend.</p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://sama.by"><img src=".github/assets/sama.jpg" width="100%" alt="Sama.by"/></a>
@@ -119,7 +131,7 @@ I design and ship products end-to-end: design systems, AI-assisted workflows, an
 
 ---
 
-### Commercial / B2B
+### 0→1 Web Sites
 
 <table width="100%">
   <thead>
